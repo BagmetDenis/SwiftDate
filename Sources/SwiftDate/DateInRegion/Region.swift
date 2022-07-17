@@ -54,7 +54,7 @@ public struct Region: Decodable, Encodable, Equatable, Hashable, CustomStringCon
 			$0.minimumDaysInFirstWeek = calendar.toCalendar().minimumDaysInFirstWeek
 		})
 		
-		calendar.firstWeekday = 2
+// 		calendar.firstWeekday = 2
 	}
 
 	/// Initialize a new Region by reading the `timeZone`,`calendar` and `locale`
